@@ -123,6 +123,7 @@ public class OrderingContextDesignFactory : IDesignTimeDbContextFactory<Ordering
             return default;
         }
 
+#pragma warning disable CS8632
         public IAsyncEnumerable<object?> CreateStream(object request, CancellationToken cancellationToken = default)
         {
             return default;

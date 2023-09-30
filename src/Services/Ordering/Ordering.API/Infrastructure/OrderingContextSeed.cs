@@ -75,7 +75,7 @@ public class OrderingContextSeed
     {
         if (string.IsNullOrEmpty(value))
         {
-            throw new Exception("Orderstatus is null or empty");
+            throw new Exception("OrderStatus is null or empty");
         }
 
         return new CardType(id++, value.Trim('"').Trim());

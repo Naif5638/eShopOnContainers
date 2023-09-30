@@ -22,6 +22,7 @@ public class Order
 
 
     // Draft orders have this set to true. Currently we don't check anywhere the draft status of an Order, but we could do it if needed
+   #pragma warning disable IDE0052
     private bool _isDraft;
 
     // DDD Patterns comment
